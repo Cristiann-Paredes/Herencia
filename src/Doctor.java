@@ -7,16 +7,17 @@ public class Doctor extends Persona{
     private String anios;
 
 
-    public Doctor(int CI, String nombre, String apellido, String direccion, String telefono,String signo,
+    public Doctor(int CI, String nombre, String apellido, String direccion, String telefono,String signo,String clase,
                   String especialida, int codigo, String horario, String hospital,String anios) {
 
-        super(CI, nombre, apellido, direccion, telefono,signo);
+        super(CI, nombre, apellido, direccion, telefono,signo,clase);
 
         this.especialida = especialida;
         this.codigo = codigo;
         this.horario = horario;
         this.hospital = hospital;
         this.anios= anios;
+
     }
     public String getEspecialida() {
         return especialida;

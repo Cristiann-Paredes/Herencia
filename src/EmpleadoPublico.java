@@ -3,10 +3,10 @@ public class EmpleadoPublico extends Persona {
     private String cargo;
     private int rmu;
 
-    public EmpleadoPublico(int CI, String nombre, String apellido, String direccion, String telefono,String signo,
+    public EmpleadoPublico(int CI, String nombre, String apellido, String direccion, String telefono,String signo,String clase,
                            String puesto,String cargo,int rmu) {
 
-        super(CI, nombre, apellido, direccion, telefono,signo);
+        super(CI, nombre, apellido, direccion, telefono,signo,clase);
 
         this.puesto=puesto;
         this.cargo=cargo;

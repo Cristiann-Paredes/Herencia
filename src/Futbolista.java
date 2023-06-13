@@ -5,10 +5,10 @@ public class Futbolista extends Persona{
     private String representante;
     private int entrena;
 
-    public Futbolista(int CI, String nombre, String apellido, String direccion, String telefono,String signo,
+    public Futbolista(int CI, String nombre, String apellido, String direccion, String telefono,String signo,String clase,
                       String equipo,String posicion,int ncamiseta,String representante, int entrena) {
 
-        super(CI, nombre, apellido, direccion, telefono,signo);
+        super(CI, nombre, apellido, direccion, telefono,signo,clase);
 
         this.equipo=equipo;
         this.posicion=posicion;

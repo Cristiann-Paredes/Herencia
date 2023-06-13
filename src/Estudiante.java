@@ -7,10 +7,10 @@ public class Estudiante extends Persona{
     public Estudiante(){
     super();
     }
-    public Estudiante(int CI, String nombre, String apellido, String direccion, String telefono,String signo,
+    public Estudiante(int CI, String nombre, String apellido, String direccion, String telefono,String signo,String clase,
                       int codigo,String correo,String semestre,String carrera) {
 
-        super(CI, nombre, apellido, direccion, telefono,signo);
+        super(CI, nombre, apellido, direccion, telefono,signo,clase);
         //atributos propios de la clase estudiante
         this.codigo=codigo;
         this.correo=correo;
